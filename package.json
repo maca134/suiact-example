@@ -10,7 +10,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@maca134/suiact": "file:../adobe-suiact/dist",
 		"rimraf": "^4.4.0",
 		"ts-loader": "^9.4.2",
 		"types-for-adobe": "^7.0.12",
