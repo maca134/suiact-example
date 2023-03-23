@@ -1,0 +1,21 @@
+{
+	"name": "suiact-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npm run clean && webpack --config webpack.build.js",
+		"clean": "rimraf ./dist"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@maca134/suiact": "file:../adobe-suiact/dist",
+		"rimraf": "^4.4.0",
+		"ts-loader": "^9.4.2",
+		"types-for-adobe": "^7.0.12",
+		"webpack": "^5.76.2",
+		"webpack-cli": "^5.0.1",
+		"wrapper-webpack-plugin": "^2.2.2"
+	}
+}
