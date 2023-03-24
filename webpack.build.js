@@ -18,7 +18,7 @@ module.exports = {
 	},
 	plugins: [
 		new WrapperPlugin({
-			test: /\.jsx$/, // only wrap output of bundle files with '.js' extension 
+			test: /\.jsx$/,
 			header: `(function (self) { var parentPanel = self instanceof Panel ? self : undefined;\n`,
 			footer: `\n})(this);`
 		})
