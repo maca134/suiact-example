@@ -5,16 +5,17 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "npm run clean && webpack --config webpack.build.js",
-		"clean": "rimraf ./dist"
+		"clean": "rimraf ./dist",
+		"update": "ncu -u && npm install"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@maca134/suiact": "^0.0.2",
-		"rimraf": "^4.4.0",
+		"@maca134/suiact": "^0.0.9",
+		"rimraf": "^4.4.1",
 		"ts-loader": "^9.4.2",
 		"types-for-adobe": "^7.0.12",
-		"webpack": "^5.76.2",
+		"webpack": "^5.76.3",
 		"webpack-cli": "^5.0.1",
 		"wrapper-webpack-plugin": "^2.2.2"
 	}

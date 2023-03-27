@@ -28,7 +28,7 @@ function Demo() {
 	return (
 		<window
 			usePanel={parentPanel}
-			type="window"
+			type="dialog"
 			text="Demo"
 			margins={16}
 			orientation="row"
